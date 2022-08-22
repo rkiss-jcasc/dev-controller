@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "rkiss-jcasc-dev-controller"
 description: "CloudBees CI configuration bundle for the rkiss-jcasc dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/rkiss-jcasc/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
