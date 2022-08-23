@@ -1,0 +1,4 @@
+variables:
+- team: rkiss-jcasc
+- admin-user: rkiss-admin
+- manager-user: rkiss
